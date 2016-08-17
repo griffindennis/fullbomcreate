@@ -1,0 +1,272 @@
+*Core Components Kit*	#383838	#fff
+30524-01	4	MakerSlide End Plate
+30525-01	2	Gantry Side Plate
+30526-01	6	Belt Clip
+30677-01	6	Belt Sleeve Clip
+30396-02	1	ACME Lead Screw
+25195-07	8	Eccentric Spacer 0.200" Long
+25195-08	2	Eccentric Spacer 0.375" Long
+30534-01	1	Motor Plate
+25281-05	18	T-Slot Nut M5 Pre-Assembly
+26054-04	1	Pulley GT2 8mm Bore 20 Tooth
+25280-03	1	Delrin Nut ACME 3/8-12
+30547-01	1	Timing Belt, GT2 80T 6mm
+25312-23	8	Spacer 5.1mm ID 0.375" OD 9.5mm Lg Aluminum
+25287-11	1	Flat Washer M8
+30545-01	1	X Carriage Extrusion
+25142-09	1	MakerSlide 200mm Tapped Black
+25203-01	20	V Wheel Assembly
+25197-01	6	Smooth Idler Pulley Assembly
+25286-17	16	Button Head Cap Screw M5 x 8
+25286-18	4	Button Head Cap Screw M5 x 10
+25286-19	16	Button Head Cap Screw M5 x 12
+25286-29	2	Button Head Cap Screw M5 x 14
+25286-21	11	Button Head Cap Screw M5 x 25
+25286-32	12	Button Head Cap Screw M5 x 30
+25286-30	4	Button Head Cap Screw M5 x 40
+30169-01	1	Flanged Bearing, 8mm
+30552-01	2	Flat Head Screw M5 x 35
+25287-08	26	M5 Flat Washer
+30265-04	41	Hex Nut M5 Nylon Locking
+30265-05	1	Hex Nut M6 Nylon Locking
+25285-41	4	Socket Head Screw M5 x 10
+25285-36	8	Socket Head Screw M5 x 16
+25285-37	4	Socket Head Screw M5 x 20
+30711-01	1	Lubricant
+
+*1000mm Rail Kit*	#FFFFFF	#000
+25281-05	12	T-Slot Nut M5 Pre-Assembly
+26018-01	6	Cast Corner Bracket, Clear
+30558-02	1	Label, X-Carve Gantry
+26053-01	12	GT2 6.35mm Wide Open Belt (foot)
+26049-02	2	Extrusion T-Slot 20x20 x 1000mm
+26049-04	3	Extrusion T-Slot 20x20 x 958mm
+25142-11	2	MakerSlide 1000mm Tapped Black
+30678-03	1	MakerSlide Extra Wide 1000mm Tapped Black
+25286-18	12	Button Head Cap Screw M5 x 10
+
+*750mm Rail Kit*	#FFFFFF	#000
+25281-05	12	T-Slot Nut M5 Pre-Assembly
+26018-01	6	Cast Corner Bracket, Clear
+30558-02	1	Label, X-Carve Gantry
+26053-01	9	GT2 6.35mm Wide Open Belt (foot)
+26049-05	3	Extrusion T-Slot 20x20 x 708mm
+26049-06	2	Extrusion T-Slot 20x20 x 750mm
+25142-12	2	MakerSlide 750mm Tapped Black
+30678-02	1	MakerSlide Extra Wide 750mm Tapped Black
+25286-18	12	Button Head Cap Screw M5 x 10
+
+*500mm Rail Kit*	#FFFFFF	#000
+30558-02	1	Label, X-Carve Gantry
+26053-01	7	GT2 6.35mm Wide Open Belt (foot)
+26049-01	2	Extrusion T-Slot 20x20 x 500mm
+30678-01	1	MakerSlide Extra Wide 500mm Tapped Black
+25142-10	2	MakerSlide 500mm
+25281-05	4	M5 pre-assembly insertion nut
+26018-01	2	cast corner bracket, clear
+26049-11	1	Extrusion T-Slot 20x20 x 458mm
+25286-18	4	Button Head Cap Screw M5 x 10
+
+*1000mm Motor and Wiring Kit*	#CC3440	#fff
+25311-06	4	Stepper Motor, NEMA 23 140 oz/in conn/pulley
+30679-09	1	Cable Assemble, Stepper Motor 97 in long (X-Axis)
+30679-10	1	Cable Assemble, Stepper Motor 42 in long (Y1-Axis)
+30679-11	1	Cable Assemble, Stepper Motor 89 in long (Y2-Axis)
+30679-12	1	Cable Assemble, Stepper Motor 97 in long (Z-Axis)
+
+*750mm Motor and Wiring Kit*	#CC3440	#fff
+25311-06	4	Stepper Motor, NEMA 23 140 oz/in conn/pulley
+30679-05	1	Cable Assemble, Stepper Motor 73 in long X-Axis
+30679-06	1	Cable Assemble, Stepper Motor 34 in long Y1-Axis
+30679-07	1	Cable Assemble, Stepper Motor 71 in long Y2-Axis
+30679-08	1	Cable Assemble, Stepper Motor 73 in long Z-Axis
+
+*500mm Motor and Wiring Kit*	#CC3440	#fff
+25311-06	4	Stepper Motor, NEMA 23 140 oz/in conn/pulley
+30679-01	1	Cable Assemble, Stepper Motor 58 in long X-Axis
+30679-02	1	Cable Assemble, Stepper Motor 29 in long Y1-Axis
+30679-03	1	Cable Assemble, Stepper Motor 53 in long Y2-Axis
+30679-04	1	Cable Assemble, Stepper Motor 58 in long Z-Axis
+
+*1000mm Drag Chain Kit*	#8A52A1	#fff
+30527-05	2	Drag Chain Bracket
+30527-06	1	Drag Chain Bracket
+30680-01	5	Zip Tie Mount
+26016-03	5	T-Nut M5 Post Assembly
+30681-01	2	Drag Chain Support Arm
+30331-13	2	Drag Chain 18x25 21 Links Custom Ends
+25986-03	1	Cable Tie 4" Black 18lb Test (100 Pack)
+26049-09	1	Extrusion T-Slot 20x20 x 1000mm Tapped
+25286-24	4	Button Head Cap Screw M4 x 10
+25286-31	1	Button Head Cap Screw M5 x 6
+25286-29	2	Button Head Cap Screw M5 x 14
+30554-04	4	Flat Head Cap Screw M5 x 10
+30554-05	6	Flat Head Cap Screw M5 x 12
+30265-03	2	Hex Nut M4 Nylon Locking
+30265-04	6	Hex Nut M5 Nylon Locking
+
+*750mm Drag Chain Kit*	#8A52A1	#fff
+30527-05	2	Drag Chain Bracket
+30527-06	1	Drag Chain Bracket
+30680-01	4	Zip Tie Mount
+26016-03	5	T-Nut M5 Post Assembly
+30681-01	2	Drag Chain Support Arm
+30331-12	2	Drag Chain 18x25 16 Links Custom Ends
+25986-03	1	Cable Tie 4" Black 18lb Test (100 Pack)
+26049-08	1	Extrusion T-Slot 20x20 x 750mm Tapped
+25286-24	4	Button Head Cap Screw M4 x 10
+25286-31	1	Button Head Cap Screw M5 x 6
+25286-29	2	Button Head Cap Screw M5 x 14
+30554-04	4	Flat Head Cap Screw M5 x 10
+30554-05	6	Flat Head Cap Screw M5 x 12
+30265-03	2	Hex Nut M4 Nylon Locking
+30265-04	6	Hex Nut M5 Nylon Locking
+
+*500mm Drag Chain Kit*	#8A52A1	#fff
+30527-05	2	Drag Chain Bracket
+30527-06	1	Drag Chain Bracket
+30680-01	3	Zip Tie Mount
+26016-03	5	T-Nut M5 Post Assembly
+30681-01	2	Drag Chain Support Arm
+30331-11	2	Drag Chain 18x25 12 Links Custom Ends
+25986-03	1	Cable Tie 4" Black 18lb Test (100 Pack)
+26049-07	1	Extrusion T-Slot 20x20 x 500mm Tapped
+25286-24	4	Button Head Cap Screw M4 x 10
+25286-31	1	Button Head Cap Screw M5 x 6
+25286-29	2	Button Head Cap Screw M5 x 14
+30554-04	4	Flat Head Cap Screw M5 x 10
+30554-05	6	Flat Head Cap Screw M5 x 12
+30265-03	2	Hex Nut M4 Nylon Locking
+30265-04	6	Hex Nut M5 Nylon Locking
+
+*1000mm Home Switch Kit*	#F47B44	#fff
+30557-02	3	Switch Lever SPDT 125VAC 5A Roller Actuator Tab Terminal
+26016-03	2	T-Nut M5 Post Assembly
+30682-07	1	Cable Assembly, 2C Lugs Ferrules 95"Lg X-Limit
+30682-08	1	Cable Assembly, 2C Lugs Ferrules 50"Lg Y-Limit
+30682-09	1	Cable Assembly, 2C Lugs Ferrules 95"Lg Z-Limit
+25312-25	2	Spacer 5.1mm ID 9.5mm 10.5mm Lg Aluminum
+25284-09	2	Hex Nut M2x0.4
+30265-07	1	Hex Nut M3 Nylon Locking
+25285-49	2	Socket Head Screw M2 x 10
+25285-50	4	Socket Head Screw M2 x 14
+25285-44	1	Socket Head Screw M3 x 20
+25285-36	2	Socket Head Screw M5 x 16
+30555-02	6	Washer, Split Lock M2 Stainless
+
+*750mm Home Switch Kit*	#F47B44	#fff
+30557-02	3	Switch Lever SPDT 125VAC 5A Roller Actuator Tab Terminal
+26016-03	2	T-Nut M5 Post Assembly
+30682-04	1	Cable Assembly, 2C Lugs Ferrules 76"Lg X-Limit
+30682-05	1	Cable Assembly, 2C Lugs Ferrules 39"Lg Y-Limit
+30682-06	1	Cable Assembly, 2C Lugs Ferrules 76"Lg Z-Limit
+25312-25	2	Spacer 5.1mm ID 9.5mm 10.5mm Lg Aluminum
+25284-09	2	Hex Nut M2x0.4
+30265-07	1	Hex Nut M3 Nylon Locking
+25285-49	2	Socket Head Screw M2 x 10
+25285-50	4	Socket Head Screw M2 x 14
+25285-44	1	Socket Head Screw M3 x 20
+25285-36	2	Socket Head Screw M5 x 16
+30555-02	6	Washer, Split Lock M2 Stainless
+
+*500mm Home Switch Kit*	#F47B44	#fff
+30557-02	3	Switch Lever SPDT 125VAC 5A Roller Actuator Tab Terminal
+26016-03	2	T-Nut M5 Post Assembly
+30682-01	1	Cable Assembly, 2C Lugs Ferrules 60"Lg X-Limit
+30682-02	1	Cable Assembly, 2C Lugs Ferrules 37"Lg Y-Limit
+30682-03	1	Cable Assembly, 2C Lugs Ferrules 60"Lg Z-Limit
+25312-25	2	Spacer 5.1mm ID 9.5mm 10.5mm Lg Aluminum
+25284-09	2	Hex Nut M2x0.4
+30265-07	1	Hex Nut M3 Nylon Locking
+25285-49	2	Socket Head Screw M2 x 10 
+25285-50	4	Socket Head Screw M2 x 14 
+25285-44	1	Socket Head Screw M3 x 20
+25285-36	2	Socket Head Screw M5 x 16
+30555-02	6	Washer, Split Lock M2 Stainless
+
+*1000mm Waste Board Kit*	#0a91d1	#fff
+25281-05	14	T-Slot Nut M5 Pre-Assembly
+30537-01	1	Wasteboard 1000mm Machine
+30517-03	144	Threaded Insert M5 x 10
+25286-20	14	Button Head Cap Screw M5 x 20
+
+*750mm Waste Board Kit*	#0a91d1	#fff
+25281-05	12	T-Slot Nut M5 Pre-Assembly
+30517-03	64	Threaded Insert M5 x 10
+30683-01	1	Wasteboard 750mm Carvey 2016
+25286-19	12	Button Head Cap Screw M5 x 12
+
+*500mm Waste Board Kit*	#0a91d1	#fff
+25281-05	6	T-Slot Nut M5 Pre-Assembly
+30517-03	25	Threaded Insert M5 x 10
+30535-02	1	Wasteboard 500mm Carvey 2016
+25286-19	6	Button Head Cap Screw M5 x 12
+
+*1000mm Side Board Assembly*	#9D9FA2	#fff
+30684-01	2	Extrusion Connection Bracket
+25281-05	21	T-Slot Nut M5 Pre-Assembly
+26018-01	4	Cast Corner Bracket, Clear
+30517-03	12	Threaded Insert M5 x 10
+30685-03	1	Side Board, X-Carve 1000mm
+26049-10	2	Extrusion T-Slot 20x20 x 250mm
+26049-04	2	Extrusion T-Slot 20x20 x 958mm
+25286-17	8	Button Head Cap Screw M5 x 8
+25286-18	8	Button Head Cap Screw M5 x 10
+25286-19	5	Button Head Cap Screw M5 x 12
+25286-29	12	Button Head Cap Screw M5 x 14
+
+*750mm Side Board Assembly*	#9D9FA2	#fff
+30684-01	2	Extrusion Connection Bracket
+25281-05	21	T-Slot Nut M5 Pre-Assembly
+26018-01	4	Cast Corner Bracket, Clear
+30517-03	12	Threaded Insert M5 x 10
+30685-02	1	Side Board, X-Carve 750mm Size
+26049-10	2	Extrusion T-Slot 20x20 x 250mm
+26049-05	2	Extrusion T-Slot 20x20 x 708mm
+25286-17	8	Button Head Cap Screw M5 x 8
+25286-18	8	Button Head Cap Screw M5 x 10
+25286-19	5	Button Head Cap Screw M5 x 12
+25286-29	12	Button Head Cap Screw M5 x 14
+
+*500mm Side Board Assembly*	#9D9FA2	#fff
+30684-01	2	Extrusion Connection Bracket
+25281-05	21	T-Slot Nut M5 Pre-Assembly
+26018-01	4	Cast Corner Bracket, Clear
+30517-03	4	Threaded Insert M5 x 10
+30685-01	1	Side Board, X-Carve 500mm Size
+26049-10	2	Extrusion T-Slot 20x20 x 250mm
+26049-11	2	Extrusion T-Slot 20x20 x 458mm
+25286-17	8	Button Head Cap Screw M5 x 8
+25286-18	8	Button Head Cap Screw M5 x 10
+25286-19	5	Button Head Cap Screw M5 x 12
+
+*DeWalt DWP611 Spindle Kit (110V)*	#42a44e	#fff
+30621-01	1	Spindle, DeWalt DWP611
+30558-01	1	Label, Inventables Spindle
+30610-01	1	Spindle Carriage, DeWalt 611
+25286-25	2	Button Head Cap Screw M5 x 16
+25285-46	3	Socket Head Screw M4 x16 Low Profile Head
+
+*DeWalt D26200 Spindle Kit (220V)*	#42a44e	#fff
+30621-02	1	Spindle, DeWalt DWP26200
+30558-01	1	Label, Inventables Spindle
+30610-01	1	Spindle Carriage, DeWalt 611
+25286-25	2	Button Head Cap Screw M5 x 16
+25285-46	3	Socket Head Screw M4 x16 Low Profile Head
+
+*DeWalt DWP611/D26200 Spindle Mount Kit (Does Not Include Spindle)*	#42a44e	#fff
+30558-01	1	Label, Inventables Spindle
+30610-01	1	Spindle Carriage, Dewalt 611
+25286-25	2	Button Head Cap Screw M5 x 16
+25285-46	3	Socket Head Screw M4 x16 Low Profile Head
+
+*Bosch Colt Spindle Mount Kit*	#42a44e	#fff
+30287-01	1	Spindle Mounting Plate
+30329-03	1	Bosch Colt Spindle Mount
+30549-01	1	Molded Rubber Logo
+25286-18	2	Button Head Cap Screw M5 x 10
+25287-08	1	Flatwasher M5 Steel
+25285-37	1	Socket Head Screw M5 x 20
+25285-38	1	Socket Head Screw M5 x 25
+30555-01	1	Split Lockwashers M5
+
