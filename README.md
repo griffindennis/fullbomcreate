@@ -8,15 +8,17 @@ This is a fairly simple awk script for generation of html table objects. You'll 
 
 1. First clone the repository to your home folder or wherever's convenient. Go into the directory: `cd fullbomcreate`
 
-2. Make sure that you can execute the script by typing `chmod 755 fullbomcreate`
+2. Make sure that you can execute the script by typing: `chmod 755 fullbomcreate`
 
-3. Copy the script to `cp fullbomcreate /usr/local/bin/`
+3. Copy the script: `cp fullbomcreate /usr/local/bin/`
 
 4. You should now be able to run the script as you would any other command line tool
 
 5. Generally when you invoke the script you'll want to pipe the output to the clipboard. On a mac this would look like:
 
 `$ fullbomcreate bom.txt | pbcopy`
+
+You can then paste the output directly into your .md file.
 
 Formatting Input Files For fullbomcreate
 ========================================
