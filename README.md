@@ -18,7 +18,7 @@ This is a fairly simple awk script for generation of html table objects. You'll 
 
 `$ fullbomcreate bom.txt | pbcopy`
 
-Formatting input files for fullbomcreate
+Formatting Input Files For fullbomcreate
 ========================================
 
 The input files should be tab delimited so quotes are not necessary. Look at fullbom.txt for an example. The first line of any bom should have the bom heading enclosed by stars followed by the heading background color as a hex value then the text color as a hex value.
@@ -26,3 +26,86 @@ The input files should be tab delimited so quotes are not necessary. Look at ful
 The BOM entries should be formatted with the SKU first, quantity second and item description last. fullbomcreate will ignore any input past the first three fields
 
 An empty row between BOM sections will trigger a `</table>` tag. Awk expects a newline at the end of a document so you must put two newlines at the very end of a bom text file to get proper output. This is a bit hackish, but it works.
+
+Example
+_______
+
+`*Core Components Kit*	#383838	#fff
+25286-19	4	Button Head Cap Screw M5 x 12
+25287-08	1	M5 Flat Washer
+
+*750mm Drag Chain Kit*	#8A52A1	#fff
+30681-01	1	Drag Chain Support Arm
+25281-05	2	T-Slot Nut M5 Pre-Assembly`
+
+Gives us this table:
+
+<table>
+  <tr>
+    <td style="color:#fff;background: #383838" colspan="3">
+      <b>Core Components Kit</b>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>SKU</b>
+    </td>
+    <td>
+      <b>Name</b>
+    </td>
+    <td>
+      <b>Quantity</b>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      25286-19
+    </td>
+    <td>
+      Button Head Cap Screw M5 x 12
+    </td>
+    <td>
+      4
+    </td>
+  </tr>
+  <tr>
+    <td>
+      25287-08
+    </td>
+    <td>
+      M5 Flat Washer
+    </td>
+    <td>
+      1
+    </td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <td style="color:#fff;background: #8A52A1" colspan="3">
+      <b>750mm Drag Chain Kit</b>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <b>SKU</b>
+    </td>
+    <td>
+      <b>Name</b>
+    </td>
+    <td>
+      <b>Quantity</b>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      30681-01
+    </td>
+    <td>
+      Drag Chain Support Arm
+    </td>
+    <td>
+      1
+    </td>
+  </tr>
+</table>
