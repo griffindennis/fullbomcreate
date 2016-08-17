@@ -1,0 +1,42 @@
+#! /usr/bin/awk -f
+
+BEGIN{
+    tableopen="<table>\n"
+    trowb="  <tr>";
+    trowe="  </tr>";
+    tcolb="    <td>";
+    tcole="    </td>";
+    tableb="<table>";
+    tablee="</table>";
+    precontent="      ";
+    FS="\t";
+    
+}
+{
+    headerrow="  <tr>\n    <td style=\"color:[[color]];background: [[background]]\" colspan=\"3\">\n      <b>[[sectionname]]</b>\n    </td>\n  </tr>\n  <tr>\n    <td>\n      <b>SKU</b>\n    </td>\n    <td>\n      <b>Name</b>\n    </td>\n    <td>\n      <b>Quantity</b>\n    </td>\n  </tr>"
+    if($1 ~ /\*/){
+	$1 ~ gsub(/\*/, "", $1); #chomps stars
+	sub(/\[\[color\]\]/, $3, headerrow);
+	sub(/\[\[background\]\]/, $2, headerrow);
+	sub(/\[\[sectionname\]\]/, $1, headerrow);
+	print tableb;	
+	print headerrow;
+    }
+    else if($0 == ""){
+    	print tablee;
+    }
+    else{
+    	print trowb;
+    	print tcolb;
+    	print precontent $1;
+    	print tcole;
+    	print tcolb;
+    	print precontent $3;
+    	print tcole;
+    	print tcolb;
+    	print precontent $2;
+    	print tcole;
+    	print trowe;
+    }
+    	
+}
