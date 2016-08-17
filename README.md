@@ -25,4 +25,4 @@ The input files should be tab delimited so quotes are not necessary. Look at ful
 
 The BOM entries should be formatted with the SKU first, quantity second and item description last. fullbomcreate will ignore any input past the first three fields
 
-An empty row between BOM sections will trigger a </table> tag. Awk expects a newline at the end of a document so you must put two newlines at the very end of a bom text file to get proper output. This is a bit hackish, but it works.
+An empty row between BOM sections will trigger a `</table>` tag. Awk expects a newline at the end of a document so you must put two newlines at the very end of a bom text file to get proper output. This is a bit hackish, but it works.
