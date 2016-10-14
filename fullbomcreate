@@ -9,11 +9,14 @@ BEGIN{
     tableb="<table>";
     tablee="</table>";
     precontent="      ";
+    closediv="</div>"
     FS="\t";
+    print "<div class=\"bom\">";
     
 }
 {
-    headerrow="  <tr>\n    <td style=\"color:[[color]];background: [[background]]\" colspan=\"3\">\n      <b>[[sectionname]]</b>\n    </td>\n  </tr>\n  <tr>\n    <td>\n      <b>SKU</b>\n    </td>\n    <td>\n      <b>Name</b>\n    </td>\n    <td>\n      <b>Quantity</b>\n    </td>\n  </tr>"
+    macroheader="<div class=\"panel-group\" id=\"[[lower-title]]-accordion\" role=\"tablist\" aria-multiselectable=\"true\">\n<div class=\"panel panel-default\">\n<a data-toggle=\"collapse\" data-parent=\"\#[[lower-title]]-accordion\" href=\"\#[[lower-title]]\" aria-expanded=\"false\" aria-controls=\"[[lower-title]]\" style=\"color:[[color]];background:[[background]]\" class=\"panel-heading\" role=\"tab\" id=\"[[lower-title]]-header\">\n<h4 class=\"panel-title\">\n<strong>[[title]]</strong>\n</h4>\n<div class=\"expand-icons\">\n<i class=\"fa fa-plus\"></i>\n<i class=\"fa fa-minus\"></i>\n</div>\n</a>\n<div id=\"[[lower-title]]\" class=\"panel-collapse collapse\" role=\"tabpanel\" aria-labelledby=\"[[lower-title]]-header\">\n<div class=\"panel-body\">\n";
+    headerrow="  <tr>\n    <td style=\"color:[[color]];background: [[background]]\" colspan=\"3\">\n      <b>[[sectionname]]</b>\n    </td>\n  </tr>\n  <tr>\n    <td>\n      <b>SKU</b>\n    </td>\n    <td>\n      <b>Name</b>\n    </td>\n    <td>\n      <b>Quantity</b>\n    </td>\n  </tr>";
     if($1 ~ /\*/){
 	$1 ~ gsub(/\*/, "", $1); #chomps stars
 	sub(/\[\[color\]\]/, $3, headerrow);
@@ -22,8 +25,24 @@ BEGIN{
 	print tableb;	
 	print headerrow;
     }
+    else if($1 ~ /\$/){
+	$1 ~ gsub(/\$/, "", $1); #chomps dolla dolla bills y'all
+	sub(/\[\[color\]\]/, $3, macroheader);
+	sub(/\[\[background\]\]/, $2, macroheader);
+	sub(/\[\[title\]\]/, $1, macroheader);
+	lowertitle = tolower($1);
+	gsub(/ /, "-", lowertitle);
+	gsub(/\[\[lower-title\]\]/, lowertitle, macroheader);
+	print macroheader;
+    }
     else if($0 == ""){
     	print tablee;
+    }
+    else if($0 == "<<END>>"){
+	print closediv;
+	print closediv;
+	print closediv;
+	print closediv;
     }
     else{
     	print trowb;
@@ -39,4 +58,7 @@ BEGIN{
     	print trowe;
     }
     	
+}
+END{
+    print "</div>";
 }
